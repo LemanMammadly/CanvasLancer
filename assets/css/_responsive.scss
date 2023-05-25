@@ -1,0 +1,180 @@
+@media only screen and (max-width: 992px) {
+  header {
+    .container {
+      .menuheader {
+        display: none;
+      }
+      .iconresp {
+        display: block;
+      }
+    }
+  }
+  .canvas {
+    .container {
+      padding: 0 7rem;
+      .alltext {
+        .texth4 {
+          font-size: 14px;
+        }
+        .texth1 {
+          font-size: 50px;
+          .h1span {
+            &::after {
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .about {
+    .container {
+      .allabout {
+        flex-direction: column;
+        gap: 30px;
+        .aboutleft {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    .container {
+      padding: 0 2rem;
+      .iconresp {
+        font-size: 20px;
+      }
+      .logoheader {
+        img {
+          width: 200px;
+        }
+      }
+      .btnheader {
+        a {
+          padding: 7px;
+        }
+      }
+    }
+  }
+  .canvas {
+    .container {
+      padding: 0 3rem;
+      .alltext {
+        .texth4 {
+          font-size: 14px;
+        }
+        .texth1 {
+          font-size: 40px;
+          .h1span {
+            &::after {
+              bottom: 0;
+            }
+          }
+        }
+        .textP {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .about {
+    .container {
+      .allabout {
+        .aboutleft {
+          .imgleft {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .aboutright {
+          .allabouttext {
+            .digitalh2 {
+              font-size: 40px;
+            }
+            .pDigital {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    .container {
+      padding: 0 1.5rem;
+      .iconresp {
+        font-size: 15px;
+      }
+      .logoheader {
+        img {
+          width: 150px;
+        }
+      }
+      .btnheader {
+        a {
+          padding: 4px;
+        }
+      }
+    }
+  }
+  .canvas {
+    .container {
+      padding: 0 3rem;
+      .alltext {
+        .texth4 {
+          font-size: 14px;
+        }
+        .texth1 {
+          font-size: 35px;
+          .h1span {
+            &::after {
+              bottom: 0;
+            }
+          }
+        }
+        .textP {
+          font-size: 13px;
+        }
+        .btns {
+          .hirebtn {
+            padding: 10px 50px;
+          }
+          .viewbtn {
+            padding: 10px 17px;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    .container {
+      padding: 0 1rem;
+      .allabout {
+        .aboutleft {
+          .imgleft {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .aboutright {
+          .allabouttext {
+            .digitalh2 {
+              font-size: 25px;
+            }
+            .pDigital {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
