@@ -197,8 +197,18 @@ header {
     .allabout {
       display: flex;
       justify-content: space-between;
+      //look
+      .aboutleft {
+        .imgleft {
+          img {
+            width: 450px;
+            margin-top: 30px;
+          }
+        }
+      }
+      //look
       .aboutright {
-        padding: 0 50px;
+        padding: 0 40px;
         .allabouttext {
           .hrtext {
             display: flex;
@@ -269,6 +279,236 @@ header {
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+.offer {
+  padding: 5rem 0;
+  display: flex;
+  background-color: #202020;
+  .container {
+    padding: 0 4rem;
+    .alloffer {
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem 0;
+      gap: 60px;
+      .leftoffer {
+        display: flex;
+        flex-direction: column;
+        .offertext {
+          margin-top: 20px;
+          .hroffertext {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+            .offerhr {
+              width: 140px;
+              height: 3px;
+              color: #fff;
+              border: none;
+              background-color: #fff;
+            }
+            .offerH6 {
+              font-family: var(--main-font);
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #fff;
+              text-align: justify;
+              letter-spacing: 0.03em;
+              .redoffer {
+                color: #ff3839;
+              }
+            }
+          }
+          .offerh1 {
+            font-family: var(--main-font);
+            font-style: normal;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 125.5%;
+            letter-spacing: 0.03em;
+            color: #fff;
+            .redservices {
+              color: #ff3839;
+            }
+          }
+          .pService {
+            font-family: var(--main-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: justify;
+            letter-spacing: 0.03em;
+            color: #fff;
+            margin: 30px 0;
+          }
+          .btnoffer {
+            margin-top: 50px;
+            .offerhirebtn {
+              text-decoration: none;
+              font-family: var(--main-font);
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: #fff;
+              padding: 10px 70px;
+              background: #ff3839;
+              border-radius: 5px;
+              transition: all 0.5s;
+              &:hover {
+                background-color: #fff;
+                color: #202020;
+              }
+            }
+          }
+        }
+      }
+      .rightoffer {
+        .allboxesoffer {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          .offerbox {
+            background-color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+            position: relative;
+            border-radius: 6px;
+            width: 40%;
+            margin-top: 40px;
+            flex-grow: 1;
+            .iconoffer {
+              position: absolute;
+              top: -20%;
+              left: 50%;
+              transform: translateX(-50%);
+              .redcircle {
+                position: relative;
+              }
+              .iconcircle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
+            .titleoffer {
+              font-family: var(--main-font);
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.03em;
+            }
+            .bottomoffer {
+              font-family: var(--main-font);
+              font-style: normal;
+              font-weight: 400;
+              font-size: 11px;
+              line-height: 155%;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: #696969;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.portfolio {
+  .container {
+    padding: 0 4rem;
+    .topportfolio {
+      .alltopportfolio {
+        padding: 5rem 0;
+        text-align: center;
+        .hrtext-portfolio {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .left-span-port {
+            width: 160px;
+            height: 3px;
+            border: none;
+            background-color: #d8d8d8;
+          }
+          .portfolio-span {
+            font-family: var(--main-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: justify;
+            letter-spacing: 0.03em;
+            color: #696969;
+            margin: 0 10px;
+          }
+          .right-span-port {
+            width: 160px;
+            height: 3px;
+            border: none;
+            background-color: #d8d8d8;
+          }
+        }
+        .portfolioH1 {
+          font-family: var(--main-font);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 125.5%;
+          text-align: center;
+          letter-spacing: 0.03em;
+          margin: 40px auto;
+          .red-projects {
+            color: #ff3839;
+          }
+        }
+        .all-works {
+          ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            li {
+              a {
+                font-family: var(--main-font);
+                text-decoration: none;
+                color: #333;
+                padding: 8px 18px;
+                background: #f2f2f2;
+                border-radius: 5px;
+                transition: 0.5s;
+                &:hover {
+                  background-color: #ff3839;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .bottomportfolio {
+      padding: 0 0 5rem 0;
+      .allimg-portfolio {
+        text-align: center;
+        .center-img-portfolio{
+          vertical-align: top;
         }
       }
     }

@@ -38,6 +38,32 @@
       }
     }
   }
+  .offer{
+    .container{
+      .alloffer{
+        flex-direction: column;
+      }
+    }
+  }
+  .portfolio{
+    .container{
+      .topportfolio{
+        .alltopportfolio{
+          .all-works{
+            ul{
+              flex-wrap: wrap;
+              gap: 50px;
+              li{
+                a{
+                  padding: 20px 40px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,6 +123,22 @@
             }
             .pDigital {
               font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .portfolio{
+    .container{
+      .topportfolio{
+        .alltopportfolio{
+          .hrtext-portfolio{
+            .left-span-port {
+              width: 100px;
+            }
+            .right-span-port{
+              width: 100px;
             }
           }
         }
@@ -173,6 +215,51 @@
               font-size: 13px;
             }
           }
+        }
+      }
+    }
+  }
+  .offer{
+    .container{
+      .alloffer{
+        .leftoffer{
+          .offertext{
+            .offerh1 {
+              font-size: 40px;
+            }
+          }
+        }
+        .rightoffer{
+          .allboxesoffer{
+            flex-direction: column;
+            .offerbox {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .portfolio{
+    .container{
+      .topportfolio{
+        .alltopportfolio{
+          .hrtext-portfolio{
+            .left-span-port {
+              width: 40px;
+            }
+            .right-span-port{
+              width: 40px;
+            }
+          }
+          .portfolioH1{
+            font-size: 35px;
+          }
+        }
+      }
+      .bottomportfolio {
+        img{
+          width: 100%;
         }
       }
     }
